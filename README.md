@@ -1,6 +1,6 @@
 # toxy-ip [![Build Status](https://api.travis-ci.org/h2non/toxy-ip.svg?branch=master&style=flat)](https://travis-ci.org/h2non/toxy-ip) [![NPM](https://img.shields.io/npm/v/toxy-ip.svg)](https://www.npmjs.org/package/toxy-ip)
 
-[`toxy`](https://github.com/h2non/toxy) rule to filter by IP `v4`/`v6` addresses, supporting [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) expressions, subnets, custom/public/reserved IP ranges.
+[`toxy`](https://github.com/h2non/toxy) rule to filter by IP `v4`/`v6` addresses, supporting [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing), subnets and custom/public/reserved IP ranges.
 
 <table>
 <tr>
