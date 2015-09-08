@@ -1,0 +1,34 @@
+{
+  "name": "toxy-ip",
+  "version": "0.1.0",
+  "description": "Toxy rule to filter by IP addresses",
+  "repository": "h2non/toxy-ip",
+  "author": "Tomas Aparicio",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "proxy",
+    "toxy",
+    "rule",
+    "ip",
+    "subnet",
+    "address",
+    "CIDR",
+    "mask",
+    "ipv4",
+    "ipv6"
+  ],
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --ui tdd test/*"
+  },
+  "dependencies": {
+    "ip": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
